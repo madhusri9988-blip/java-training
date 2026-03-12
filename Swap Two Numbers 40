@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Swap {
+
+    public static void main(String[] args) {
+       int a;
+       int b;
+    int temp;
+       Scanner ms=new Scanner(System.in);
+        a=ms.nextInt();
+        b=ms.nextInt();
+        temp=a;
+        a=b;
+        b=temp;
+        System.out.println(a+" "+b);
+        
+    }
+}
+        
