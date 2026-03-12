@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Area {
+
+    public static void main(String[] args) {
+        int a,b;
+        Scanner ms= new Scanner(System.in);
+        a=ms.nextInt();
+        b=ms.nextInt();
+        System.out.println(a*b);
+       
+    }
+}
