@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      int a,b,sum,difference,product,quotient;
+        Scanner ms=new Scanner (System.in);
+        a=ms.nextInt();
+        b=ms.nextInt();
+        sum=a+b;
+        difference=a-b;
+        product=a*b;
+        quotient=a/b;
+        System.out.println(sum);
+        System.out.println(difference);
+        System.out.println(product);
+        System.out.println(quotient);
+    }
+}
