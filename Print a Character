@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        String A;
+        Scanner nm= new Scanner (System.in);
+        A=nm.next();
+        System.out.println(A);
+    }
+}
+        
