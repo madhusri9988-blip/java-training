@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner v=new Scanner(System.in);
+        int n=v.nextInt();
+        int orginal =n;
+        int reverse=0;
+        
+            while(n>0){
+                int digit =n%10;
+                reverse = reverse*10+digit;
+                n=n/10;
+        }
+        if(orginal==reverse){
+            System.out.print("Palindrome");
+        }
+        else{
+            System.out.print("Not Palindrome");
+        }
+    }
+}
