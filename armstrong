@@ -1,0 +1,23 @@
+import java.util.*;
+ public class Solution {
+    public static void  main (String arg[])
+    {
+        Scanner sc= new Scanner (System.in);
+        int n=sc.nextInt();
+        int result=0;
+        int tempnum=n;
+        while (n>0)
+        {
+            int lastnum=n%10;
+            result=result+lastnum*lastnum*lastnum;
+            n=n/10;
+        }
+        if (result==tempnum){
+            System.out.println("armstrong number");
+        }
+        else{
+               System.out.println(" Not armstrong number");
+        }
+        
+    }
+ }
