@@ -1,0 +1,15 @@
+import java.util.*;
+public class Solution{
+    public static void main(String[]args) {
+        Scanner nc=new Scanner (System.in);
+        String m=nc.next();
+        for(int i=1;i<m.length();i++)
+        {
+            char ch= m.charAt(i);
+            if (ch=='a'){
+            continue ;
+            }
+            System.out.println(ch);
+        }
+    }
+}
